@@ -22,12 +22,10 @@ https://security.stackexchange.com/questions/4781/do-any-security-experts-recomm
 Eclipse mit Maven und DropWizard zum Gehen bringen:
 
 1. [How to solve No compiler is provided in this environment while running Maven build](http://learn-automation.com/maven-no-compiler-is-provided-in-this-environment-selenium/)
-
 1. In Eclipse ein Java-Projekt anlegen ("Hello world").
-  - Right-Click auf Projekt -> Convert to Maven (... es entsteht pom.xml)
-  - Compilieren und Laufen lassen - getrennt unter "Run Configuration"
-
-3. _Archive for required library: '.../.m2/repository/com/google/guava/guava/23.1-jre/guava-23.1-jre.jar' in project 'JIGally' cannot be read or is not a valid ZIP file	JIGally_ -> C:/Users/h.mueller/.m2/repository/... löschen, wird von Maven neu heruntergeladen.
+  * Right-Click auf Projekt -> Convert to Maven (... es entsteht pom.xml)
+  * Compilieren und Laufen lassen - getrennt unter "Run Configuration"
+2. _Archive for required library: '.../.m2/repository/com/google/guava/guava/23.1-jre/guava-23.1-jre.jar' in project 'JIGally' cannot be read or is not a valid ZIP file	JIGally_ -> C:/Users/h.mueller/.m2/repository/... löschen, wird von Maven neu heruntergeladen.
 
 ## Edit
 
