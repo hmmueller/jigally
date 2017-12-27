@@ -13,9 +13,9 @@ https://security.stackexchange.com/questions/4781/do-any-security-experts-recomm
 
 ## Mögliches Hosting:
 
-https://www.hetzner.de/virtual-server    4,64/Monat
-https://www.df.eu/de/cloud-hosting/     14,99/Monat, aber abschaltbar
-https://www.keyweb.de/de/produkte/server/root-virtual-server       4,90/Monat
+- https://www.hetzner.de/virtual-server    4,64/Monat
+- https://www.df.eu/de/cloud-hosting/     14,99/Monat, aber abschaltbar
+- https://www.keyweb.de/de/produkte/server/root-virtual-server       4,90/Monat
 
 ## Eclipse 
 
