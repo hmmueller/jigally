@@ -1,4 +1,4 @@
-# Alle mˆglichen Themen zu Architektur & Entwicklung
+# Alle m√∂glichen Themen zu Architektur & Entwicklung
 
 ## Passwort-Sicherheit
 
@@ -8,7 +8,7 @@ https://security.stackexchange.com/questions/4781/do-any-security-experts-recomm
 
 Siehe Hauptseite - "Ideen & Gedanken"
 
-## Mˆgliches Hosting:
+## M√∂gliches Hosting:
 
 https://www.hetzner.de/virtual-server    4,64/Monat
 https://www.df.eu/de/cloud-hosting/     14,99/Monat, aber abschaltbar
@@ -24,5 +24,8 @@ Eclipse mit Maven und DropWizard zum Gehen bringen:
   - Right-Click auf Projekt -> Convert to Maven (... es entsteht pom.xml)
   - Compilieren und Laufen lassen - getrennt unter "Run Configuration"
 
-1. _Archive for required library: '.../.m2/repository/com/google/guava/guava/23.1-jre/guava-23.1-jre.jar' in project 'JIGally' cannot be read or is not a valid ZIP file	JIGally_ -> C:/Users/h.mueller/.m2/repository/... lˆschen, wird von Maven neu heruntergeladen.
+1. _Archive for required library: '.../.m2/repository/com/google/guava/guava/23.1-jre/guava-23.1-jre.jar' in project 'JIGally' cannot be read or is not a valid ZIP file	JIGally_ -> C:/Users/h.mueller/.m2/repository/... l√∂schen, wird von Maven neu heruntergeladen.
 
+## Edit
+
+[Edit](https://github.com/hmmueller/jigally/edit/master/ArchitekturUndEntwicklung.md)
