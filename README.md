@@ -8,7 +8,7 @@ Alles, was wir im JIG brauchen ...
 - Rechnungen verwalten
 - Veranstaltungen und Künstler verwalten
 
-![Skizze](https://github.com/lukas845/jigally/edit/master/IMG_20171227_144950_Usecases.jpg)
+![Skizze](https://github.com/hmmueller/jigally/edit/master/IMG_20171227_144950_Usecases.jpg)
 
 
 ### Architektur
@@ -18,7 +18,7 @@ Alles, was wir im JIG brauchen ...
 
 ### Klassenmodell
 
-![Skizze](https://github.com/lukas845/jigally/edit/master/IMG_20171227_144935_Klassenmodell.jpg)
+![Skizze](https://github.com/hmmueller/jigally/edit/master/IMG_20171227_144935_Klassenmodell.jpg)
 
 
 ## Hilfe für Editieren
@@ -29,7 +29,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hmmueller/jigally/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lukas845/jigally/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
