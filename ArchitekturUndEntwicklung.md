@@ -27,7 +27,7 @@ Eclipse mit Maven und DropWizard zum Gehen bringen:
   - Right-Click auf Projekt -> Convert to Maven (... es entsteht pom.xml)
   - Compilieren und Laufen lassen - getrennt unter "Run Configuration"
 
-1. _Archive for required library: '.../.m2/repository/com/google/guava/guava/23.1-jre/guava-23.1-jre.jar' in project 'JIGally' cannot be read or is not a valid ZIP file	JIGally_ -> C:/Users/h.mueller/.m2/repository/... löschen, wird von Maven neu heruntergeladen.
+3. _Archive for required library: '.../.m2/repository/com/google/guava/guava/23.1-jre/guava-23.1-jre.jar' in project 'JIGally' cannot be read or is not a valid ZIP file	JIGally_ -> C:/Users/h.mueller/.m2/repository/... löschen, wird von Maven neu heruntergeladen.
 
 ## Edit
 
