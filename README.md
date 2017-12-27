@@ -8,7 +8,7 @@ Alles, was wir im JIG brauchen ...
 - Rechnungen verwalten
 - Veranstaltungen und Künstler verwalten
 
-![Skizze](https://github.com/hmmueller/jigally/edit/master/IMG_20171227_144950_Usecases.jpg)
+![Skizze](https://github.com/hmmueller/jigally/blob/master/IMG_20171227_144950_Usecases.jpg)
 
 ### Ideen & Gedanken
 
@@ -23,10 +23,11 @@ Alles, was wir im JIG brauchen ...
 - **Java-Software**
 - **Web-Applikation** - Mitglieder tun was an Browsern auf Handys (_warum nicht Apps? ... nunja: Warum Apps?_)
 - Let's use [DropWizard](http://www.dropwizard.io/1.2.2/docs/getting-started.html)
+- [Architektur & Entwicklung](https://github.com/hmmueller/jigally/blob/master/ArchitekturUndEntwicklung.md)
 
 ### Klassenmodell
 
-![Skizze](https://github.com/hmmueller/jigally/edit/master/IMG_20171227_144935_Klassenmodell.jpg)
+![Skizze](https://github.com/hmmueller/jigally/blob/master/IMG_20171227_144935_Klassenmodell.jpg)
 
 
 ## Hilfe für Editieren
