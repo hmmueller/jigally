@@ -1,31 +1,27 @@
-## Welcome to GitHub Pages
+## JIGally
 
-You can use the [editor on GitHub](https://github.com/hmmueller/jigally/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Alles, was wir im JIG brauchen ... 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Use-cases
 
-### Markdown
+- Getränke zählen und abrechnen
+- Rechnungen verwalten
+- Veranstaltungen und Künstler verwalten
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Skizze](src)
 
-```markdown
-Syntax highlighted code block
+### Architektur
 
-# Header 1
-## Header 2
-### Header 3
+- **Java-Software**
+- **Web-Applikation** - Mitglieder tun was an Browsern auf Handys (_warum nicht Apps? ... nunja: Warum Apps?_)
 
-- Bulleted
-- List
+### Klassenmodell
 
-1. Numbered
-2. List
+![Skizze](src)
 
-**Bold** and _Italic_ and `Code` text
+## Hilfe für Editieren
 
-[Link](url) and ![Image](src)
-```
-
+[Edit dieser Seite](https://github.com/hmmueller/jigally/edit/master/README.md)
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
