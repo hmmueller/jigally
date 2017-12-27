@@ -2,7 +2,7 @@
 
 Alles, was wir im JIG brauchen ... 
 
-### Use-cases
+### Use-Cases
 
 - Getränke zählen und abrechnen
 - Rechnungen verwalten
@@ -10,6 +10,13 @@ Alles, was wir im JIG brauchen ...
 
 ![Skizze](https://github.com/hmmueller/jigally/edit/master/IMG_20171227_144950_Usecases.jpg)
 
+### Ideen & Gedanken
+
+- Alle Arten von Objekten sollten über CSV+Excel verändert werden können; Identifikation erfolgt über definierte Spalten heuristisch, mit optionaler "NEU/VORHANDEN/LÖSCHEN"-Spalte; Rückmeldung über Rückgabe Excels mtt Fehlereinträgen - bei Fehlern immer Rollback.
+- ORM: "home-grown object registry", das nur "CREATE/UPDATE/DELETE" vermerkt; Assoc-Getter setzen dort "RETRIEVE" ab - auch Kinder; Composition-Assocs müssen "cascading-intelligent" sein für löschen & register; SQL hinter Abstraktion = es gibt auch simples InMemory-Registry;
+- Fehler in Transaktion macht immer Rollback.
+- Retrieve kann mit Optimistic- oder Pessimistic-Lock passieren, Lock ist auch später in Transaktion möglich; Pessimistic-Lock setzt (in eigener Transaktion) Lease (Zeit+Account).
+- Jede Operation wird als Webservice angeboten = HTML-Frontend ist Client des Webservices.
 
 ### Architektur
 
