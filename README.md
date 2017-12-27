@@ -10,6 +10,7 @@ Alles, was wir im JIG brauchen ...
 
 ![Skizze](https://github.com/hmmueller/jigally/edit/master/IMG_20171227_144950_Usecases.jpg)
 
+
 ### Architektur
 
 - **Java-Software**
@@ -18,6 +19,7 @@ Alles, was wir im JIG brauchen ...
 ### Klassenmodell
 
 ![Skizze](https://github.com/hmmueller/jigally/edit/master/IMG_20171227_144935_Klassenmodell.jpg)
+
 
 ## Hilfe für Editieren
 
