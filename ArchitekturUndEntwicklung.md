@@ -6,7 +6,10 @@ https://security.stackexchange.com/questions/4781/do-any-security-experts-recomm
 
 ## ORM
 
-Siehe Hauptseite - "Ideen & Gedanken"
+- "home-grown object registry", das nur "CREATE/UPDATE/DELETE" vermerkt; Assoc-Getter setzen dort "RETRIEVE" ab - auch Kinder; Composition-Assocs müssen "cascading-intelligent" sein für löschen & register; SQL hinter Abstraktion = es gibt auch simples InMemory-Registry;
+- Fehler in Transaktion macht immer Rollback.
+- Retrieve kann mit Optimistic- oder Pessimistic-Lock passieren, Lock ist auch später in Transaktion möglich; Pessimistic-Lock setzt (in eigener Transaktion) Lease (Zeit+Account).
+
 
 ## Mögliches Hosting:
 
@@ -28,4 +31,4 @@ Eclipse mit Maven und DropWizard zum Gehen bringen:
 
 ## Edit
 
-[Edit](https://github.com/hmmueller/jigally/edit/master/ArchitekturUndEntwicklung.md)
+[Edit dieser Seite](https://github.com/hmmueller/jigally/edit/master/ArchitekturUndEntwicklung.md)
