@@ -15,6 +15,7 @@ Alles, was wir im JIG brauchen ...
 
 - **Java-Software**
 - **Web-Applikation** - Mitglieder tun was an Browsern auf Handys (_warum nicht Apps? ... nunja: Warum Apps?_)
+-- Let's use [DropWizard](http://www.dropwizard.io/1.2.2/docs/getting-started.html)
 
 ### Klassenmodell
 
