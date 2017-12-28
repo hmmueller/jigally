@@ -13,7 +13,8 @@ Alles, was wir im JIG brauchen ...
 ### Ideen & Gedanken
 
 - Alle Arten von Objekten sollten über CSV+Excel verändert werden können; Identifikation erfolgt über definierte Spalten heuristisch, mit optionaler "NEU/VORHANDEN/LÖSCHEN"-Spalte; Rückmeldung über Rückgabe Excels mtt Fehlereinträgen - bei Fehlern immer Rollback.
-- Jede Operation wird als Webservice angeboten = HTML-Frontend ist Client des Webservices.
+- Jede Operation wird als Webservice angeboten = HTML-Frontend ist Client des Webservices. Allerdings kann das Frontend "Wizards" anbieten, die erst nach einer Sequenz von GUI-Bedienungen eine Transaktion auslösen ... dann ist aber das Frontend für den State zuständig.
+- Account-Tracking bei Aktionen - fachlich (mit expliziten semantischen Assoziationen) oder technisch (Trigger für jede Änderung)? Sinnvoller scheint mir erstes - zu klären.
 
 ### Architektur
 
