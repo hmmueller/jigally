@@ -7,6 +7,9 @@ Alles, was wir im JIG brauchen ...
 - Getränke zählen und abrechnen
 - Rechnungen verwalten
 - Veranstaltungen und Künstler verwalten
+- "Künstler" is a "Lieferant"?
+- ics-Schnittstelle?
+- Statistiken: Wieviel X pro Person wird auf Veranstaltungen der Art Y getrunken? (für Planung)
 
 ![Skizze](https://github.com/hmmueller/jigally/blob/master/IMG_20171227_144950_Usecases.jpg)
 
