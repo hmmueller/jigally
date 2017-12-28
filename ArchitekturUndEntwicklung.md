@@ -8,7 +8,7 @@ https://security.stackexchange.com/questions/4781/do-any-security-experts-recomm
 
 - "home-grown object registry", das nur "CREATE/UPDATE/DELETE" vermerkt; Assoc-Getter setzen dort "RETRIEVE" ab - auch Kinder; Composition-Assocs müssen "cascading-intelligent" sein für löschen & register; SQL hinter Abstraktion = es gibt auch simples InMemory-Registry;
 - Fehler in Transaktion macht immer Rollback.
-- Retrieve kann mit Optimistic- oder Pessimistic-Lock passieren, Lock ist auch später in Transaktion möglich; Pessimistic-Lock setzt (in eigener Transaktion) Lease (Zeit+Account).
+- Retrieve kann mit Optimistic- oder Pessimistic-Lock passieren, Lock ist auch später in Transaktion möglich; Pessimistic-Lock setzt (in eigener Transaktion) Lease (Zeit+Account). **PessLock+OptLock**: Version + LockedUntil + LockedByAccount (Effekt: parallele Bearbeitung durch einen Account sollte zu Fehler bei zweitem Speichern führen)
 
 ## Serviceaufteilung?
 
