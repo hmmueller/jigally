@@ -10,6 +10,9 @@ https://security.stackexchange.com/questions/4781/do-any-security-experts-recomm
 - Fehler in Transaktion macht immer Rollback.
 - Retrieve kann mit Optimistic- oder Pessimistic-Lock passieren, Lock ist auch später in Transaktion möglich; Pessimistic-Lock setzt (in eigener Transaktion) Lease (Zeit+Account).
 
+## Serviceaufteilung?
+
+Prinzipiell wäre eine Aufteilung in "Funktionsblöcke" wohl möglich (alles um Account+Person; alles um Veranstaltungen; alles um Rechnungen; alles um Produkte) - bis hin zu MicroServices = getrennten Webservern. Bei dieser Minimalanwendung (kleine Datenmenge = max. einige 1000 Records, kleine Benutzeranzahl = max. einige Dutzen, vielleicht 100e) ist das aber unnötig und hätte nur einen "Lerneffekt" -> ersparen wir uns ...
 
 ## Mögliches Hosting:
 
